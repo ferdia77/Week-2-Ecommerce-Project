@@ -25,6 +25,22 @@ p {
     line-height: 1.5;
 }
 
+.purple {
+    color: #7342d6;
+}
+
+.logo {
+    width: 160px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
 .nav__container {
     width: 100%;
     max-width: 1200px;
@@ -58,7 +74,7 @@ p {
     text-decoration: none;
 }
 
-.btm__menu {
+.btn__menu {
     background-color: transparent;
     font-size: 40px;
     border: none;
@@ -77,7 +93,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    visibility: visible;
+    visibility: hidden;
     transition: all 300 ms ease;
     opacity: 0;
     transform: translate(100%);
@@ -117,21 +133,6 @@ p {
     color: white;
 }
 
-.purple {
-    color: #7342d6;
-}
-
-.logo {
-    width: 160px;
-}
-
-ul {
-    display: flex;
-}
-
-li {
-    list-style-type: none;
-}
 
 /* 
 
